@@ -1,0 +1,110 @@
+java.lang.AssertionError: The following asserts failed:
+	Current outage tab text not matched. expected [CURRENT OUTAGES] but found [UNPLANNED OUTAGES],
+	Filter current outage link text not matched. expected [Current Outages] but found [Unplanned Outages],
+	Total row count in the outage grid are not equal to the planned outage plus current outage. expected [10] but found [5]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.smartusys.test.csp.TestAdminOutagePage.verifyObjectsAdminOutagePage(TestAdminOutagePage.java:196)
+	at com.smartusys.executer.RunnerCSP.verifyObjectsAdminOutagePage(RunnerCSP.java:1886)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+    java.lang.AssertionError: The following asserts failed:
+	Outage status not matched. expected [Unresolved] but found [Power Outage 2630136339],
+	Outage type not matched. expected [Current Outage] but found [Unplanned Outage],
+	Outage title not matched. expected [Power Outage 6738643950] but found [09/14/20 01:28:58],
+	Outage info not matched. expected [Power outage due to windstorm 6738643950] but found [08/13/20 01:29:00],
+	Start date time not mactched with the details grid. expected [true] but found [false],
+	Restoration date time not matched with the details grid. expected [true] but found [false],
+	Outage status in details tabs not matched. expected [Power Outage 2630136339] but found [Unresolved],
+	Outage cause in details tab not matched. expected [Power Failure 6738643950] but found [Power Failure],
+	Outage creation time not matched with the outage history tabel. expected [true] but found [false],
+	Restoration date not matched with the hsitory grid expected [true] but found [false],
+	Outage info not matched with the history grid details. expected [Power outage due to windstorm 6738643950] but found [Power outage due to windstorm 2630136339],
+	expected [21] but found [5]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.smartusys.test.csp.TestAdminOutagePage.verifyCreateCurrentOutage(TestAdminOutagePage.java:571)
+	at com.smartusys.executer.RunnerCSP.verifyCreateCurrentOutage(RunnerCSP.java:1922)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+    java.lang.AssertionError: The following asserts failed:
+	Outage type not matched. expected [Current Outage] but found [Unplanned Outage],
+	Start date time not mactched with the details grid. expected [true] but found [false],
+	Restoration date time not matched with the details grid. expected [true] but found [false],
+	Outage cause in details tab not matched. expected [Power Failure 7860080903] but found [Power Failure],
+	Outage creation time not matched with the outage history tabel. expected [true] but found [false],
+	Restoration date not matched with the hsitory grid expected [true] but found [false],
+	expected [0] but found [5]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.smartusys.test.csp.TestAdminOutagePage.verifyCreateCurrentOutage(TestAdminOutagePage.java:581)
+	at com.smartusys.executer.RunnerCSP.verifyCreateCurrentOutage(RunnerCSP.java:1922)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+
